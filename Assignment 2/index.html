@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Data</title>
+</head>
+
+<body style="background-color: rgb(214, 70, 70); margin: 5px; border: 10px; border-color: aliceblue; border-style: solid;">
+    <fieldset style="border: 4px; border-style: solid; border-color: rgb(60, 182, 182);">
+        <legend style="background-color: rgb(19, 143, 143);">Personal Data</legend>
+        <br />
+        <br />
+        <br />
+        <form action="register" method="post">
+            <fieldset
+                style="background-color: rgb(219, 241, 13); border: 2px; border-style: solid; border-color: rgb(84, 199, 199);">
+                <legend style="background-color: rgb(16, 134, 134);height: 80px;">YourName</legend>
+                <br />
+                <br />
+                <br />
+                <!-- <label for="firstName">First Name :</label>
+            <input placeholder="ex abdallah" id="firstName" type="text"><br/>
+            <label for="secondName">Second Name :</label>
+            <input placeholder="ex ahmed" id="secondName" type="text"> -->
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label for="firstName">First Name :</label></td>
+                            <td><input placeholder="ex abdallah" id="firstName" type="text"></td>
+                        </tr>
+                        <tr>
+                            <td><label for="secondName">Second Name :</label></td>
+                            <td><input placeholder="ex ahmed" id="secondName" type="text"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <table>
+                <tbody>
+                    <tr>
+                        <td><label style="font-weight: bold;" for="phone">Phone Number :</label></td>
+                        <td><input id="phone" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td><label style="font-weight: bold;" for="email">Email :</label></td>
+                        <td><input id="email" type="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label style="font-weight: bold;" for="password">Password :</label></td>
+                        <td><input id="password" type="password"></td>
+                    </tr>
+                    <tr>
+                        <td><label style="font-weight: bold;" for="re-password">Re-Password :</label></td>
+                        <td><input id="re-password" type="password"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <br />
+            <br />
+            <br />
+            <br />
+            <input type="radio" name="gender" value="male">Male <br />
+            <input type="radio" name="gender" value="female">Female <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <input type="checkbox" name="educated" value="student">Student <br />
+            <input type="checkbox" name="educated" value="graduated">Graduated <br />
+            <br />
+            <br />
+            <br />
+            <select name="university" id="">
+                <option>AUC</option>
+                <option>GUC</option>
+                <option>BUE</option>
+                <option selected>Cairo University</option>
+                <option>MIT</option>
+            </select><br />
+            <button type="submit" style="color: aliceblue; background-color: rgba(12, 1, 1, 0.63);">Submit</button>
+        </form><br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    </fieldset>
+</body>
+
+</html>
